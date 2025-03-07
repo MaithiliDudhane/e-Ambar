@@ -1,0 +1,5 @@
+SET @ID:=0;
+Update uploadhindipoem SET id=@id:=(@id+1);
+ALTER TABLE uploadhindipoem AUTO_INCREMENT=1;
+
+

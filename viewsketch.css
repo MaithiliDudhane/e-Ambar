@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap');
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lexend", sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.card-list {
+	width: 90%;
+	max-width: 400px;
+}
+
+.card {
+	background-color: #FFF;
+	border-radius: 15px;
+	overflow: hidden;
+	padding: 1.25rem;
+	position: relative;
+	transition: .15s ease-in;
+	
+	&:hover, &:focus-within {
+			transform: translatey(-5px);
+	}
+}
+
+.card-image {
+	border-radius: 10px;
+	overflow: hidden;
+} 
+  
